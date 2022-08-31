@@ -1,6 +1,6 @@
 " Maintainer: Alex Efros <powerman-asdf@ya.ru>
 " Version: 1.4
-" Last Modified: Oct 11, 2013
+" Last Modified: Aug 31, 2022
 " License: This file is placed in the public domain.
 " URL: http://www.vim.org/scripts/script.php?script_id=3885
 " Description: Support command mode in Russian keyboard layout (Unicode)
@@ -574,6 +574,10 @@ if !exists('g:no_plugin_maps') && !exists('g:no_ruscmd_maps')
 	map <unique> шХ i{
 	map <unique> фЪ a}
 	map <unique> шЪ i}
+    " Support for https://github.com/tpope/vim-commentary
+	map <unique> псс gcc
+	map <unique> пс gc
+	map <unique> псфз gcap
 
 	map <unique> <C-W>Б <C-W><
 	map <unique> <C-W>Ю <C-W>>
